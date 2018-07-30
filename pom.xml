@@ -419,9 +419,9 @@
                         <version>${junit-platform.version}</version>
                     </dependency>
                 </dependencies>
-                <configuration>
-                    <argLine>-Xmx1024M ${argLine}</argLine>
-                </configuration>
+                <!--<configuration>-->
+                    <!--<argLine>-Xmx1024M ${argLine}</argLine>-->
+                <!--</configuration>-->
             </plugin>
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
