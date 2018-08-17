@@ -163,6 +163,7 @@
         <module>serverless</module>
         <module>ambassador</module>
 		    <module>acyclic-visitor</module>
+        <module>http-request</module>
     </modules>
 
     <repositories>
