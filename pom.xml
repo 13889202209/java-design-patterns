@@ -164,6 +164,7 @@
         <module>ambassador</module>
 		    <module>acyclic-visitor</module>
         <module>http-request</module>
+        <module>inner-class</module>
     </modules>
 
     <repositories>
