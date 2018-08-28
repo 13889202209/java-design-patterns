@@ -2,6 +2,8 @@ package com;
 
 import com.github.kevinsawicki.http.HttpRequest;
 
+import java.io.File;
+
 public class Test {
     public static void main(String[] args) {
         String str = HttpRequest.post("http://59.252.100.160:8081/pe/model/getModel.do").contentType("application/json").send("{\"modelId\":\"2c90e4a3654730d201654fdbe4d00017\"}").body();
@@ -12,8 +14,8 @@ public class Test {
         String s2 = HttpRequest.post("http://59.252.100.160:8081/pe/result/addResult.do").contentType("application/json").send(json).body();
         System.out.println(s2);
 
-
-
+        String upload = HttpRequest.post("http://localhost:8080/clpe/receive").send(new File("/Users/wangbo/Documents/test/aaaaa.txt")).body();
+        System.out.println(upload);
 
     }
 }
