@@ -165,6 +165,8 @@
 		    <module>acyclic-visitor</module>
         <module>http-request</module>
         <module>inner-class</module>
+        <module>hashMap</module>
+        <module>jdk8Speciality</module>
     </modules>
 
     <repositories>
