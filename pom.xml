@@ -167,6 +167,7 @@
         <module>inner-class</module>
         <module>hashMap</module>
         <module>jdk8Speciality</module>
+        <module>thrift</module>
     </modules>
 
     <repositories>
